@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.lower-box {
+  background-color: #e4ebf3;
+  height: 50vh;
+  width: 50vw;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading {
+  color: #0b69ff;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.para {
+  color: black;
+  font-size: 25px;
+  text-align: center;
+  font-family: monospace;
+}
+.button {
+  background-color: #0b69ff;
+  width: 100px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  font-size: 14px;
+}
+.value {
+  color: #0b69ff;
+  font-size: 60px;
+  font-family: fantasy;
+  font-weight: 700;
+}
